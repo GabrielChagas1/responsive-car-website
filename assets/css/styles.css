@@ -108,6 +108,22 @@ img {
   overflow: hidden;
 }
 
+.shape{
+  background-color: hsla(219, 33%, 32%, .5);
+  filter: blur(112px);
+  border-radius: 50%;
+}
+
+.shape__big{
+  width: 400px;
+  height: 400px;
+}
+
+.shape__small{
+  width: 300px;
+  height: 300px;
+}
+
 /*=============== HEADER & NAV ===============*/
 .header{
   width: 100%;
