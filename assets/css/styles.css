@@ -349,6 +349,17 @@ img {
   right: -10rem;
   bottom: 3rem;
 }
+
+/* Button animate */
+@keyframes button {
+  0%{
+    box-shadow: 0 0 12px hsl(158, 98%, 43%);
+  }
+  50%{
+    box-shadow: 0 0 24px hsl(158, 98%, 43%) ;
+  }
+}
+
 /*=============== BUTTON ===============*/
 
 
