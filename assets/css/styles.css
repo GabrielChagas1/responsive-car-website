@@ -124,6 +124,12 @@ img {
   height: 300px;
 }
 
+.shape__smaller{
+  width: 180px;
+  height: 180px;
+  filter: blur(64px);
+}
+
 /*=============== HEADER & NAV ===============*/
 .header{
   width: 100%;
