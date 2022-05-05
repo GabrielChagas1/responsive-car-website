@@ -371,6 +371,9 @@ img {
   transition: .3s;
 }
 
+.button:hover{
+  background-color: var(--first-color-alt);
+}
 
 /*=============== ABOUT ===============*/
 
