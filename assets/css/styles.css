@@ -506,6 +506,9 @@ img {
 }
 
 /* Swiper class */
+.swiper-pagination-bullet{
+  background: var(--text-color);
+}
 
 
 /*=============== FEATURES ===============*/
