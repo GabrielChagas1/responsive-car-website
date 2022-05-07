@@ -557,6 +557,15 @@ img {
   bottom: 2rem;
 }
 
+.features__card-title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+}
+
+.features__card-description{
+  font-size: var(--smaller-font-size);
+}
+
 
 /*=============== FEATURED ===============*/
 
