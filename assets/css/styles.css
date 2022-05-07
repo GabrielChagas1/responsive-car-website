@@ -531,6 +531,31 @@ img {
   justify-self: center;
 }
 
+.features__card{
+  width: 112px;
+  background-color: hsla(0, 0%, 100%, .1);
+  backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  padding: .75rem 2rem;
+  text-align: center;
+  color: var(--title-color);
+  position: absolute;
+}
+
+.features__card-1{
+  top: 4rem;
+  left: 1.5rem;
+}
+
+.features__card-2{
+  top: 8rem;
+  right: 1rem;
+}
+
+.features__card-3{
+  left: 1.5rem;
+  bottom: 2rem;
+}
 
 
 /*=============== FEATURED ===============*/
