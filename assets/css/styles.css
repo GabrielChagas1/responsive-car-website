@@ -526,6 +526,11 @@ img {
   justify-content: center;
 }
 
+.features__img{
+  width: 150px;
+  justify-self: center;
+}
+
 
 
 /*=============== FEATURED ===============*/
