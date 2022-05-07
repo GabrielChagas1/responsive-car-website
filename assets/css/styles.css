@@ -566,6 +566,16 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.features__map{
+  max-width: initial;
+  width: 450px;
+  position: absolute;
+  top: 8rem;
+  left: -3rem;
+  margin: auto;
+  transform: rotate(-22deg);
+
+}
 
 /*=============== FEATURED ===============*/
 
