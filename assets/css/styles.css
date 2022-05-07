@@ -515,6 +515,17 @@ img {
 }
 
 /*=============== FEATURES ===============*/
+.features{
+  overflow: hidden;
+  position: relative;
+}
+
+.features__container{
+  padding-top: 2rem;
+  grid-template-columns: 285px;
+  justify-content: center;
+}
+
 
 
 /*=============== FEATURED ===============*/
