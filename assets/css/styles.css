@@ -526,6 +526,12 @@ img {
   justify-content: center;
 }
 
+.features__group{
+  display: grid;
+  position: relative; 
+  z-index: 10;
+}
+
 .features__img{
   width: 150px;
   justify-self: center;
