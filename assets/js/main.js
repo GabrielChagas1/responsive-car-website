@@ -58,7 +58,14 @@ var swiperPopular = new Swiper(".popular__container", {
   });
 
 /*=============== MIXITUP FILTER FEATURED ===============*/
-
+var mixerFeatured = mixitup('.featured__content', {
+  selectors: {
+      target: '.featured__card'
+  },
+  animation: {
+      duration: 300
+  }
+});
 
 /* Link active featured */ 
 
