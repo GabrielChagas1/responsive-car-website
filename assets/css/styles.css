@@ -587,6 +587,38 @@ img {
 
 /*=============== FEATURED ===============*/
 
+.featured__item{
+  width: 48px;
+  height: 48px;
+  border: none;
+  outline: none;
+  padding: .75rem;
+  border-radius: .75rem;
+  background-color: var(--container-color);
+  color: var(--white-color);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.featured__item img{
+  width: 1.5rem;
+}
+
+.featured__item span,
+.featured__item img{
+  opacity: .3;
+  transition: .3s;
+}
+
+.featured__item:hover{
+  background-color: var(--first-color);
+}
+
+.featured__item:hover span,
+.featured__item:hover img{
+  opacity: 1;
+}
 
 /* Active link featured */
 
