@@ -586,6 +586,17 @@ img {
 }
 
 /*=============== FEATURED ===============*/
+.featured__container{
+  padding-top: 1rem;
+}
+
+.featured__filters{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-bottom: 3.5rem;
+}
 
 .featured__item{
   width: 48px;
@@ -618,6 +629,12 @@ img {
 .featured__item:hover span,
 .featured__item:hover img{
   opacity: 1;
+}
+
+.featured__content{
+  grid-template-columns: 228px;
+  row-gap: 2.5rem;
+  justify-content: center;
 }
 
 .featured__card{
@@ -678,6 +695,7 @@ img {
 .featured__card:hover .featured__img{
   transform: translateX(-.25rem);
 }
+
 /* Active link featured */
 
 
