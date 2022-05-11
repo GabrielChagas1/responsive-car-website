@@ -707,6 +707,13 @@ img {
 }
 
 /*=============== OFFER ===============*/
+.offer{
+  position: relative;
+}
+
+.offer__container{
+  grid-template-rows: max-content 224px;
+}
 
 
 /*=============== LOGOS ===============*/
