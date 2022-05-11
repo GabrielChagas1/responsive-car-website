@@ -741,6 +741,13 @@ img {
 .offer__description{
   margin-bottom: 3rem;
 }
+.offer__img{
+  position: absolute;
+  max-width: initial;
+  width: 400px;
+  bottom: 2rem;
+  right: -5.5rem;
+}
 /*=============== LOGOS ===============*/
 
 
