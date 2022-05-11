@@ -725,6 +725,22 @@ img {
   object-position: center;
 }
 
+.offer__data,
+.offer__img{
+  position: relative;
+}
+
+.offer__data{
+  text-align: center;
+}
+
+.offer__title{
+  margin-bottom: 2rem;
+}
+
+.offer__description{
+  margin-bottom: 3rem;
+}
 /*=============== LOGOS ===============*/
 
 
