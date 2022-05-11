@@ -741,6 +741,7 @@ img {
 .offer__description{
   margin-bottom: 3rem;
 }
+
 .offer__img{
   position: absolute;
   max-width: initial;
@@ -748,8 +749,25 @@ img {
   bottom: 2rem;
   right: -5.5rem;
 }
-/*=============== LOGOS ===============*/
 
+/*=============== LOGOS ===============*/
+.logos__img{
+  width: 40px;
+  opacity: .4;
+  transition: .3s;
+}
+
+.logos__container{
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 2rem;
+}
+
+.logos__img:hover{
+  opacity: 1;
+}
 
 /*=============== FOOTER ===============*/
 
