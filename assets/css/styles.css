@@ -898,7 +898,33 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
+  .home__car{
+    column-gap: 2rem;
+  }
+
+  .about__card{
+    width: 150px;
+  }
+
+  .offer__container{
+    grid-template-columns: max-content 180px;
+  }
+
+  .offer__img{
+    width: 340px;
+  }
+
+  .logos__container{
+    gap: 2.5rem;
+  }
+
+}
 
 /* For medium devices */
 
