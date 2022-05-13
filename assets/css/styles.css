@@ -927,6 +927,35 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px){
+  .about__group{
+    width: 350px;
+    justify-self: center;
+  }
+
+  .features__map{
+    left: 0;
+    right: 0;
+  }
+
+  .featured__content{
+    grid-template-columns: repeat(2, 228px);
+  }
+
+  .offer__container{
+    grid-template-rows: initial;
+    grid-template-columns: .5fr;
+    justify-content: center;
+  }
+  .offer__img{
+    position: relative;
+    bottom: initial;
+    right: initial;
+  }
+  .offer__data{
+    margin-bottom: 4rem;
+  }
+}
 
 
 /* For large devices */
